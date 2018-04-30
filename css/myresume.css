@@ -34,7 +34,7 @@ h3 {
   content: '';
   position: absolute;
   width: 6px;
-  background-color: #bd5d38;
+  background-color:#00BFFF;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -56,7 +56,7 @@ h3 {
   height: 25px;
   right: -12px;
   background-color: white;
-  border: 4px solid #bd5d38;
+  border: 4px solid #00BFFF;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -100,4 +100,19 @@ h3 {
   .timeline-left::after, .timeline-right::after {
     left: 17px;
   }
+}
+.bg-primary{
+	background-color:#00BFFF!important
+}
+
+.text-primary{
+	color:#00BFFF!important
+}
+
+a{
+	color:#00BFFF
+}
+
+a:active,a:focus,a:hover{
+	color:#00BFFF
 }
